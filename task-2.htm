@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+	<title>
+		Window prompt() Method 
+	</title>
+</head>
+
+<body style="text-align: center;">
+	<h1 style="color:purple;">
+     Javascript Windows prompt() Method demo 
+	 </h1>
+  
+	<p id="g"></p> 
+	
+	<script>
+    name = prompt("Please enter your name", "Enter name");
+	age = prompt("Please enter your age", "Enter age");
+	occupation = prompt("Please enter your occupation", "Enter occupation");
+	if (name != null && age != null && occupation != null) { 
+                document.getElementById("g").innerHTML = 
+                    "Name entered: " + name + ", Age entered: " + age + ", Occupation entered: " + occupation; 
+					}
+	</script>
+</body>
+
+</html>
